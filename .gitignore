@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#models
+fakeNewsBackend/ml_backend/model
+
+#data
+fakeNewsBackend/ml_backend/data
+
+fakeNewsBackend/ml_backend/data/fakereal.csv
+fakeNewsBackend/ml_backend/model/variables/variables.data-00000-of-00001
