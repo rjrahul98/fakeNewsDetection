@@ -51,10 +51,9 @@ class Get_predictions(APIView):
         text = get_label(text, tokenizer)
         temp = model.predict(text)[0][0]
         if temp>0.9:
-            out=1
+            out=True
         else:
-            out=0
+            out=False
         return JsonResponse({
                 "message": out,
-                "status": True,
             })
