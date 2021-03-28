@@ -129,10 +129,10 @@ dmypy.json
 .pyre/
 
 #models
-fakeNewsBackend/ml_backend/model
+ml_backend/model
 
 #data
-fakeNewsBackend/ml_backend/data
+ml_backend/data
 
-fakeNewsBackend/ml_backend/data/fakereal.csv
-fakeNewsBackend/ml_backend/model/variables/variables.data-00000-of-00001
+ml_backend/data/fakereal.csv
+ml_backend/model/variables/variables.data-00000-of-00001
