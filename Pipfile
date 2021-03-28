@@ -33,6 +33,7 @@ djangorestframework = "*"
 nltk = "*"
 tensorflow = "==2.3"
 gensim = "*"
+pandas = "*"
 
 [dev-packages]
 
