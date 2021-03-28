@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 requests = "*"
 django = "*"
+nltk = "*"
+django-heroku = "*"
 
 [dev-packages]
 
