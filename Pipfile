@@ -30,6 +30,8 @@ django = "*"
 gunicorn = "*"
 django-heroku = "*"
 djangorestframework = "*"
+nltk = "*"
+tensorflow = "==2.3"
 
 [dev-packages]
 
